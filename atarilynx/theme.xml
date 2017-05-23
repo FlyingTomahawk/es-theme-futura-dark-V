@@ -1,0 +1,52 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Atari Lynx is a 16-bit handheld game console that was released by Atari Corporation in September 1989 in North America, and in Europe and Japan in 1990. The Lynx holds the distinction of being the world's first handheld electronic game with a color LCD.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Atari Lynx</text>
+			<pos>0.045 0.08</pos>			
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1989 - 1995</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.10 0.055</pos>
+		</image>	
+		<text name="system_name_year" extra="true">
+			<text>Lynx 1989 - 1995</text>			
+		</text>				
+	</view>		
+
+</theme>

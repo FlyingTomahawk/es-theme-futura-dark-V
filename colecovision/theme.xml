@@ -1,0 +1,60 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The ColecoVision is Coleco Industries' second-generation home video-game console which was released in August 1982. The ColecoVision offered a closer experience to more powerful arcade game systems compared to competitors such as the Atari 2600, along with the means to expand the system's basic hardware.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.1</pos>
+			<maxSize>0.21 0.11</maxSize>
+		</image>
+		<text name="system_name" extra="true">
+			<text>ColecoVision</text>
+			<fontSize>0.042</fontSize>			
+			<pos>0.045 0.08</pos>			
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1982 - 1985</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.14 0.045</pos>
+			<maxSize>0.26 0.12</maxSize>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>Coleco 1982 - 1985</text>		
+			<pos>0.58 0.045</pos>			
+		</text>				
+	</view>		
+
+</theme>

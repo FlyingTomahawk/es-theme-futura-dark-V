@@ -1,0 +1,54 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The SG-1000, also known as the Sega Computer Videogame SG-1000, is a cartridge-based home video game console manufactured by Sega and released in Japan, Australia, and other countries. It was Sega's first entry into the home video game hardware business, and provided the basis for the more successful Master System.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Sega SG-1000</text>
+			<fontSize>0.045</fontSize>
+			<pos>0.03 0.08</pos>							
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1983 - 1984</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.11 0.07</pos>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>SG-1000 1983 - 1984</text>
+			<pos>0.58 0.05</pos>			
+		</text>				
+	</view>		
+
+</theme>

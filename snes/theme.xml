@@ -1,0 +1,55 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Super Nintendo Entertainment System (also known as the Super NES, SNES or Super Nintendo) is a 16-bit video game console that was released by Nintendo. In Japan and Southeast Asia, the system is called the Super Famicom.</text>
+		</text>
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Super Nintendo</text>
+			<pos>0.020 0.07</pos>	
+			<size>0.25 0</size>			
+			<alignment>center</alignment>	
+			<lineSpacing>1</lineSpacing>			
+		</text>				
+		<text name="system_year" extra="true">
+			<text>1991 - 1999</text>
+		</text>	
+	</view>	
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.11 0.04</pos>
+		</image>	
+		<text name="system_name_year" extra="true">
+			<text>SNES 1991 - 1999</text>			
+		</text>				
+	</view>	
+	
+</theme>

@@ -1,0 +1,61 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Sega Mega Drive is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Mega Drive was Sega's third console and the successor to the Master System.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<image name="logo">	
+			<pos>0.5 0.1</pos>
+			<maxSize>0.30 0.24</maxSize>	
+		</image>	
+		<text name="system_name" extra="true">
+			<text>Sega Mega Drive</text>
+			<pos>0.022 0.08</pos>	
+			<fontSize>0.045</fontSize>
+			<size>0.25 0</size>			
+			<alignment>center</alignment>	
+			<lineSpacing>1</lineSpacing>			
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1988 - 1997</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.075 0.07</pos>
+			<maxSize>0.35 0.15</maxSize>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>MD 1988 - 1997</text>
+		</text>				
+	</view>		
+
+</theme>

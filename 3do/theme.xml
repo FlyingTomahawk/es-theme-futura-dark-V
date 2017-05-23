@@ -1,0 +1,56 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>		
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The 3DO Interactive Multiplayer, often called simply the 3DO, is a home video game console platform developed by The 3DO Company. Founded in 1991 by Electronic Arts founder Trip Hawkins.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<image name="logo">
+			<maxSize>0.22 0.12</maxSize>			
+		</image>	
+		<text name="system_name" extra="true">
+			<text>3DO</text>
+			<pos>0.10 0.08</pos>			
+		</text>				
+		<text name="system_year" extra="true">
+			<text>1993 - 1996</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.12 0.035</pos>
+			<maxSize>0.25 0.19</maxSize>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>3DO 1993 - 1996</text>				
+		</text>				
+	</view>		
+
+</theme>

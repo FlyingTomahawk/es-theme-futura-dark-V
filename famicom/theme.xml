@@ -1,0 +1,59 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The  Family Computer (also known as Famicom or FC) is an 8-bit home video game console that was developed and manufactured by Nintendo. Released in Japan on July 15, 1983</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<image name="logo">	
+			<pos>0.5 0.1</pos>
+			<maxSize>0.26 0.22</maxSize>	
+		</image>
+		<text name="system_name" extra="true">
+			<text>Famicom</text>
+			<pos>0.075 0.08</pos>
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1983 - 2003</text>
+			<pos>0.75 0.08</pos>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.12 0.05</pos>
+			<maxSize>0.28 0.24</maxSize>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>Famicom 1983 - 2003</text>	
+			<pos>0.565 0.05</pos>			
+		</text>				
+	</view>		
+
+</theme>

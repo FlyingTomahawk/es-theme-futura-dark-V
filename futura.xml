@@ -1,0 +1,265 @@
+<!--
+theme name:       Futura 10px dark with video feature
+version:          1.3.6 video beta
+author:           FlyingTomahawk
+email:            flyingtomahawk2@gmail.com
+website:          
+license:          creative commons CC-BY-NC-SA
+layout based on:  Newgen theme by Ruckage 
+comments:         Please read the README.md and license.txt text files for further information regarding licenses and this theme.                        				  
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+<!-- BOF ALL 3 VIEWS //-->
+    <view name="system, basic, detailed, video">
+	<!-- regular background //-->	
+		<image name="background" extra="true">
+            <path>./_art/images/f_bg_dark.png</path>
+            <pos>0 0</pos>
+            <size>1 0</size>
+			<color>b1b1ff</color>
+        </image>			 
+		<helpsystem name="help">
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<fontPath>./_art/fonts/Audiowide-Regular.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<pos>0.030 0.935</pos>
+		</helpsystem>
+		<text name="system_description, md_description,	md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_developer, md_publisher, md_genre, md_players, md_playcount, md_lbl_lastplayed, md_lbl_playcount" extra="true">
+			<fontPath>./_art/fonts/Audiowide-Regular.ttf</fontPath>
+			<color>ffffff</color>			
+		</text>
+		<text name="system_name, system_year, system_name_year" extra="true">
+			<fontPath>./_art/fonts/SubZER0.ttf</fontPath>
+			<color>ffffff</color>				
+		</text>		
+		<textlist name="gamelist">
+			<fontPath>./_art/fonts/Audiowide-Regular.ttf</fontPath>	
+			<selectorColor>eeeeee77</selectorColor>
+			<selectedColor>000000</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>ffffff</secondaryColor>
+			<forceUppercase>1</forceUppercase>			
+		</textlist>	
+		<datetime name="md_releasedate, md_lastplayed">
+			<fontPath>./_art/fonts/Audiowide-Regular.ttf</fontPath>
+			<color>ffffff</color>
+		</datetime>	
+		
+	</view>
+<!-- EOF ALL 3 VIEWS //-->
+	
+<!-- BOF SYSTEM VIEW //-->
+    <view name="system">	
+	
+		<image name="screenshot_left" extra="true">
+			<pos>0.006 0.009</pos>
+			<size>0.330 0</size>
+		</image>			
+		<image name="screenshot_center" extra="true">
+			<pos>0.305 0.009</pos>
+			<size>0.390 0</size>			
+		</image>		
+		<image name="screenshot_right" extra="true">
+			<pos>0.663 0.009</pos>
+			<size>0.330 0</size>		
+		</image>				
+		<image name="frame_system_top" extra="true">
+			<path>./_art/images/f_system_top_10px.png</path>		
+			<pos>0 0</pos>
+			<size>1 0</size>
+			<color>ffffff</color>
+		</image>		
+		<image name="frame_system_bottom" extra="true">
+			<path>./_art/images/f_system_bottom_10px_dark.png</path>
+			<pos>0 0.687</pos>
+			<size>1 0</size>
+		</image>			
+		<text name="system_description" extra="true">
+			<pos>0.20 0.695</pos>
+			<size>0.60 0.198</size>
+			<color>ffffff</color>
+			<fontSize>0.022</fontSize>
+			<alignment>center</alignment>
+			<forceUppercase>1</forceUppercase>
+		</text>		
+		
+	</view>
+<!-- EOF SYSTEM VIEW //-->	
+
+<!-- BOF BASIC VIEW //-->
+	<view name="basic">
+	
+		<image name="frame_basic" extra="true">
+            <path>./_art/images/f_basic_10px_dark.png</path>
+            <pos>0 0</pos>
+            <size>1 0</size>
+        </image>	
+		<image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.1</pos>
+			<maxSize>0.25 0.16</maxSize>
+		</image>		
+		<text name="system_name" extra="true">
+			<pos>0.055 0.08</pos>
+			<fontSize>0.05</fontSize>
+			<alignment>center</alignment>
+			<forceUppercase>1</forceUppercase>
+		</text>	
+		<text name="system_year" extra="true">
+			<pos>0.76 0.08</pos>
+			<fontSize>0.05</fontSize>
+			<alignment>center</alignment>
+			<forceUppercase>1</forceUppercase>
+		</text>			
+		<textlist name="gamelist">
+			<pos>0.15 0.24</pos>
+			<size>0.70 0.64</size>
+			<fontSize>0.035</fontSize>
+		</textlist>	
+		
+	</view>
+<!-- EOF BASIC VIEW //-->	
+<!-- BOF DETAILED & VIDEO VIEW //-->
+<view name="detailed, video">
+
+		<image name="frame_detailed" extra="true">
+            <path>./_art/images/f_detailed_10px_dark.png</path>
+            <pos>0 0</pos>
+            <size>1 0</size>
+        </image>		
+		<image name="logo">
+			<origin>0 0</origin>
+			<pos>0.10 0.04</pos>
+			<maxSize>0.28 0.15</maxSize>
+		</image>	
+		<text name="system_name_year" extra="true">
+			<pos>0.61 0.05</pos>			
+			<fontSize>0.05</fontSize>
+			<alignment>center</alignment>
+			<forceUppercase>1</forceUppercase>
+		</text>				
+		<textlist name="gamelist">
+			<pos>0.15 0.25</pos>
+			<size>0.36 0.61</size>
+			<fontSize>0.03</fontSize>
+		</textlist>	
+		<text name="md_description">
+			<pos>0.56 0.61</pos>
+			<size>0.42 0.25</size>
+			<color>ffffff</color>
+			<fontSize>0.020</fontSize>
+			<alignment>left</alignment>
+			<forceUppercase>1</forceUppercase>
+		</text>	
+		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players">
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.023</fontSize>
+			<size>0.24 0.01</size>
+		</text>
+		<text name="md_developer, md_publisher, md_genre, md_players">
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.020</fontSize>
+			<size>0.16 0.02</size>
+		</text>
+		<datetime name="md_releasedate">
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.020</fontSize>
+			<size>0.23 0.02</size>
+		</datetime>
+	<!-- Metadata positions START //-->	
+		<text name="md_lbl_players">
+			<pos>0.81 0.26</pos>
+		</text>
+		<text name="md_players">
+			<pos>0.82 0.28</pos>
+		</text>
+		<text name="md_lbl_genre">
+			<pos>0.81 0.32</pos>
+		</text>
+		<text name="md_genre">
+			<pos>0.82 0.34</pos>
+		</text>
+		<text name="md_lbl_developer">
+			<pos>0.81 0.38</pos>
+		</text>
+		<text name="md_developer">
+			<pos>0.82 0.40</pos>
+		</text>
+		<text name="md_lbl_publisher">
+			<pos>0.81 0.44</pos>
+		</text>
+		<text name="md_publisher">
+			<pos>0.82 0.46</pos>
+		</text>
+		<text name="md_lbl_releasedate">
+			<pos>0.81 0.50</pos>
+		</text>
+		<datetime name="md_releasedate">
+			<pos>0.82 0.52</pos>
+		</datetime>	
+	<!-- Metadata positions END //-->	
+	
+<!-- DEACTIVATED //-->		
+		<text name="md_playcount, md_lbl_lastplayed, md_lbl_playcount, md_lbl_rating">
+			<pos>1 1</pos>
+			<size>0.1 0.1</size>
+		</text>				
+<!-- DEACTIVATED //-->
+		<rating name="md_rating">
+			<pos>1 1</pos>
+			<size>0.1 0.1</size>
+			<filledPath>./_art/images/star_full.png</filledPath>
+			<unfilledPath>./_art/images/star_hollow.png</unfilledPath>
+		</rating>		
+<!-- DEACTIVATED //-->
+		<datetime name="md_lastplayed">
+			<pos>1 1</pos>
+			<size>0.1 0.1</size>
+		</datetime>		
+	
+</view>
+<!-- EOF DETAILED & VIDEO VIEW //-->
+
+<!-- BOF DETAILED VIEW //-->	
+	<view name="detailed">	
+	
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<pos>0.675 0.42</pos>
+			<maxSize>0.20 0.35</maxSize>
+		</image>		
+		
+	</view>
+<!-- EOF DETAILED VIEW //-->
+
+<!-- BOF VIDEO VIEW //-->	
+    <view name="video">
+	
+		<video name="md_video">
+		    <origin>0.5 0.5</origin>
+			<pos>0.675 0.42</pos>
+			<maxSize>0.25 0.32</maxSize>
+		    <delay>1.0</delay>
+            <showSnapshotNoVideo>true</showSnapshotNoVideo>
+            <showSnapshotDelay>true</showSnapshotDelay>
+		</video>
+		<image name="md_marquee">
+			<origin>0.5 0.5</origin>		
+			<pos>0.675 0.23</pos>
+			<maxSize>0.15 0.35</maxSize>
+		</image>
+	<!-- regular background //-->	
+		<image name="background">
+            <path>./_art/images/f_bg_dark.png</path>
+            <pos>0 0</pos>
+            <size>1 0</size>
+			<color>b1b1ff</color>
+        </image>					
+		
+	</view>
+<!-- EOF VIDEO VIEW //-->
+
+</theme>

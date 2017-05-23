@@ -1,0 +1,57 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Capcom Play System III or CPS-3 is an arcade system board that was first used by Capcom in 1996 with the arcade game Red Earth. It was the second successor to the CP System arcade hardware, following the CP System II. It would be the last proprietary system board Capcom would produce before moving on to the Dreamcast-based Naomi platform.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+        <image name="logo">
+			<maxSize>0.23 0.14</maxSize>			
+        </image>	
+		<text name="system_name" extra="true">
+			<text>CPS-3</text>
+			<pos>0.09 0.08</pos>
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1996 - 1999</text>		
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.158 0.035</pos>
+			<maxSize>0.27 0.14</maxSize>
+		</image>
+		<text name="system_name_year" extra="true">
+			<text>CPS-3 1996 - 1999</text>	
+			<pos>0.60 0.045</pos>	
+		</text>				
+	</view>		
+
+</theme>

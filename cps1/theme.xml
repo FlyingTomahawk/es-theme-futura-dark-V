@@ -1,0 +1,57 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Capcom Play System or CPS is an arcade system board developed by Capcom that ran game software stored on removable ROM cartridges. More than two dozen arcade titles were released for CPS-1, before Capcom shifted game development over to its successor, the CP System II</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+        <image name="logo">
+			<maxSize>0.23 0.14</maxSize>			
+        </image>	
+		<text name="system_name" extra="true">
+			<text>CPS-1</text>
+			<pos>0.09 0.08</pos>			
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1988 - 1993</text>
+		
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.158 0.035</pos>
+			<maxSize>0.27 0.14</maxSize>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>CPS-1 1988 - 1993</text>	
+		</text>				
+	</view>		
+
+</theme>

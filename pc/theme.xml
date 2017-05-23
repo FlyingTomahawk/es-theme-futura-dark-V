@@ -1,0 +1,59 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>MS-DOS (acronym for Microsoft Disk Operating System) is a discontinued operating system for x86-based personal computers mostly developed by Microsoft. It was the most commonly used member of the DOS family of operating systems, and was the main operating system for IBM PC compatible personal computers during the 1980s and the early 1990s.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.1</pos>
+			<maxSize>0.22 0.13</maxSize>
+		</image>	
+		<text name="system_name" extra="true">
+			<text>MS-Dos</text>
+			<pos>0.08 0.08</pos>
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1981 - 2000</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.17 0.030</pos>
+			<maxSize>0.27 0.14</maxSize>
+		</image>	
+		<text name="system_name_year" extra="true">
+			<text>MS-Dos 1981 - 2000</text>
+			<pos>0.58 0.05</pos>
+		</text>				
+	</view>		
+
+</theme>

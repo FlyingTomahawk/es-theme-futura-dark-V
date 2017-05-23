@@ -1,0 +1,58 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Atari Jaguar is a home video game console that was developed by Atari Corporation. The console was the sixth and last programmable console to be developed under the Atari brand, originally released in North America in November 1993</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+        <image name="logo">
+			<maxSize>0.20 0.16</maxSize>			
+        </image>	
+		<text name="system_name" extra="true">
+			<text>Atari Jaguar</text>		
+			<pos>0.025 0.08</pos>	
+			<fontSize>0.045</fontSize>
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1993 - 1996</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.145 0.04</pos>
+			<maxSize>0.22 0.13</maxSize>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>Jaguar 1993 - 1996</text>
+			<pos>0.575 0.045</pos>				
+		</text>				
+	</view>		
+
+</theme>

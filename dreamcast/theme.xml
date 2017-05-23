@@ -1,0 +1,53 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>Although the Dreamcast had a short lifespan and limited third-party support, reviewers have considered the console ahead of its time. Its library contains many games considered creative and innovative, including Crazy Taxi, Jet Set Radio and Shenmue, as well as high-quality ports from Sega's NAOMI arcade system board.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Dreamcast</text>			
+			<pos>0.04 0.08</pos>			
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1998 - 2001</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.10 0.06</pos>
+		</image>	
+		<text name="system_name_year" extra="true">
+			<text>Dreamcast 1998 - 2001</text>
+			<pos>0.54 0.045</pos>
+		</text>				
+	</view>		
+
+</theme>

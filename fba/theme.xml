@@ -1,0 +1,61 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>FB Alpha or FBA as it is commonly known is an emulator of arcade games, that is, it takes the program code, graphics data, etc., from an original arcade game and emulates the hardware to make the game run in it's original form.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+        <image name="logo">
+			<maxSize>0.20 0.13</maxSize>			
+        </image>	
+		<text name="system_name" extra="true">
+			<text>Final Burn Alpha</text>
+			<fontSize>0.035</fontSize>			
+			<pos>0.022 0.08</pos>
+		</text>		
+		<text name="system_year" extra="true">
+			<text>2000 - present</text>
+			<fontSize>0.038</fontSize>	
+			<pos>0.745 0.08</pos>			
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<origin>0 0</origin>
+			<pos>0.20 0.04</pos>
+			<maxSize>0.25 0.13</maxSize>
+		</image>	
+		<text name="system_name_year" extra="true">
+			<text>FBA 2000 - present</text>	
+			<pos>0.56 0.045</pos>			
+		</text>				
+	</view>		
+
+</theme>

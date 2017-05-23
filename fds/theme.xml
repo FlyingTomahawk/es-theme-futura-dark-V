@@ -1,0 +1,58 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Family Computer Disk System, sometimes shortened as the Famicom Disk System or simply the Disk System, and abbreviated as the FDS or FCD, is a peripheral for Nintendo's Family Computer home video game console, released in Japan on February 21, 1986.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Family Computer Disk System</text>
+			<pos>0.022 0.06</pos>	
+			<fontSize>0.045</fontSize>
+			<size>0.25 0</size>			
+			<alignment>center</alignment>	
+			<lineSpacing>1</lineSpacing>			
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1986 - 2003</text>
+			<pos>0.75 0.08</pos>			
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.075 0.05</pos>
+			<maxSize>0.35 0.15</maxSize>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>FDS 1986 - 2003</text>
+		</text>				
+	</view>		
+
+</theme>

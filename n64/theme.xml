@@ -1,0 +1,54 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Nintendo 64 also known as N64 is Nintendo's third home video game console. The console was first released in Japan on June 23, 1996. The Nintendo 64 was first sold in North America on September 26, 1996.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Nintendo 64</text>
+			<pos>0.025 0.08</pos>			
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1996 - 2003</text>
+			<pos>0.75 0.08</pos>			
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.075 0.05</pos>
+			<maxSize>0.35 0.15</maxSize>
+		</image>	
+		<text name="system_name_year" extra="true">
+			<text>N64 1996 - 2003</text>			
+		</text>				
+	</view>		
+
+</theme>

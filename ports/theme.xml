@@ -1,0 +1,60 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>		
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>A collection of software ported to ARM including classics such as DOOM and Duke Nukem</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>		
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<image name="logo">
+			<pos>0.5 0.1</pos>
+			<maxSize>0.22 0.12</maxSize>			
+		</image>	
+		<text name="system_name" extra="true">
+			<text>Ports</text>
+			<pos>0.08 0.08</pos>			
+		</text>				
+		<text name="system_year" extra="true">
+			<text>1987 - present</text>
+			<pos>0.75 0.08</pos>
+			<fontSize>0.04</fontSize>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.17 0.035</pos>
+			<maxSize>0.20 0.14</maxSize>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>Ports 1987 - present</text>
+			<pos>0.545 0.045</pos>			
+		</text>				
+	</view>		
+
+</theme>

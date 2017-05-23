@@ -1,0 +1,52 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Atari 2600 (or Atari VCS before 1982) is a home video game console by Atari, which released on September 11, 1977. It is credited with popularizing the use of microprocessor-based hardware and ROM cartridges containing game code.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Atari2600</text>
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1977 - 1992</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.10 0.05</pos>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>Atari2600 1977 - 1992</text>
+			<pos>0.55 0.045</pos>				
+		</text>				
+	</view>		
+
+</theme>

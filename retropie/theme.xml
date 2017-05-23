@@ -1,0 +1,66 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.png</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>RetroPie Settings</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.135 0.045</pos>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>RetroPie Settings</text>	
+			<pos>0.58 0.045</pos>				
+		</text>	
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<pos>0.76 0.35</pos>
+			<maxSize>0.20 0.35</maxSize>
+		</image>
+		<text name="md_description">
+			<pos>0.56 0.58</pos>
+			<size>0.42 0.25</size>
+			<color>ffffff</color>
+			<fontSize>0.020</fontSize>
+			<alignment>left</alignment>
+			<forceUppercase>1</forceUppercase>
+		</text>
+<!-- DEACTIVATED METADATA START //-->			
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_developer, md_publisher, md_genre, md_players">
+			<size>0.1 0.1</size>
+			<pos>1 1</pos>
+		</text>
+		<datetime name="md_releasedate">
+			<pos>1 1</pos>		
+			<size>0.1 0.1</size>
+		</datetime>	
+<!-- DEACTIVATED METADATA END //-->
+
+	</view>		
+
+</theme>

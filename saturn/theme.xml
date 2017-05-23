@@ -1,0 +1,55 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Sega Saturn is a 32-bit fifth-generation home video game console that was developed by Sega. The Saturn has a dual-CPU architecture and eight processors. Its games are in CD-ROM format, and its game library contains several arcade ports as well as original titles.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">	
+		<text name="system_name" extra="true">
+			<text>Sega Saturn</text>
+			<pos>0.028 0.08</pos>
+			<fontSize>0.045</fontSize>
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1994 - 2000</text>
+			<pos>0.745 0.08</pos>			
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.10 0.075</pos>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>Saturn 1994 - 2000</text>
+			<pos>0.558 0.045</pos>
+		</text>				
+	</view>		
+
+</theme>
