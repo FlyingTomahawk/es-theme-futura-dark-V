@@ -1,0 +1,54 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<fontSize>0.020</fontSize>
+			<text>The Vectrex was a vector display-based home video game console released in 1982. It was licensed and distributed first by General Consumer Electronics (GCE), and then by Milton Bradley Company. Launching with a retail price of $199 ($480 today), it quickly faced a series of price reductions during the Video Game Crash of 1983. The Vectrex was discontinued in early 1984.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Vectrex</text>
+			<pos>0.06 0.08</pos>			
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1982 - 1984</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.11 0.02</pos>
+		</image>	
+		<text name="system_name_year" extra="true">
+			<text>Vectrex 1982 - 1984</text>
+			<pos>0.565 0.05</pos>
+		</text>				
+	</view>		
+
+</theme>
