@@ -1,4 +1,4 @@
-Theme 'futura 10px dark video' v1.3.6 - 2017-05-23
+Theme 'futura 10px dark video' v1.3.7 - 2017-05-31
 (c) FlyingTomahawk - flyingtomahawk2@gmail.com
 
 License

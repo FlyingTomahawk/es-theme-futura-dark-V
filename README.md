@@ -58,6 +58,15 @@ Notes
 Change log
 ----------
 
+v1.3.7 - 2017-05-31
+- Added Amstrad CPC system (All credits to chrisdodgen)
+- Added Apple II system (All credits to chrisdodgen)
+- Added CoCo system (All credits to chrisdodgen)
+- Added Intellivision system (All credits to chrisdodgen)
+- Added Vectrex system (All credits to chrisdodgen)
+- Added Zmachine system (All credits to chrisdodgen)
+- Added ZX Spectrum system (All credits to chrisdodgen)
+
 v1.3.6 - 2017-05-18
 - Added Famicom system
 - Added Megadrive Japan system
@@ -106,5 +115,5 @@ v1.1 - 2017-01-30
 
 ---
 
-Theme 'futura 10px dark video' v1.3.6 - 2017-05-18 (CC-BY-NC-SA) 
+Theme 'futura 10px dark video' v1.3.7 - 2017-05-31 (CC-BY-NC-SA) 
 (c) FlyingTomahawk - flyingtomahawk2@gmail.com
