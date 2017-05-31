@@ -1,0 +1,54 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<fontSize>0.020</fontSize>
+			<text>The Intellivision is a home video game console released by Mattel Electronics in 1979. The name is a portmanteau of "intelligent television". Development of the console began in 1978, less than a year after the introduction of the Atari 2600. The system was discontinued in 1990 and remained Mattel's only video game console until the release of the HyperScan in 2006.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Mattel</text>
+			<pos>0.08 0.08</pos>			
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1979 - 1990</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.11 0.06</pos>
+		</image>
+		<text name="system_name_year" extra="true">
+			<text>Mattel 1979 - 1990</text>
+			<pos>0.575 0.05</pos>
+		</text>				
+	</view>		
+
+</theme>
