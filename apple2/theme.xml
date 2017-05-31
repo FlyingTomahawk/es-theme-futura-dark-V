@@ -1,0 +1,53 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>	
+    </view>
+	
+<!-- SYSTEM VIEW START //-->
+	<view name="system">
+		<text name="system_description" extra="true">
+			<fontSize>0.020</fontSize>
+			<text>The Apple II is an 8-bit home computer, one of the first highly successful mass-produced microcomputers, designed by Steve Wozniak, Steve Jobs, and Rod Holt. It was introduced in 1977 at the West Coast Computer Faire by Jobs and was the first consumer product sold by Apple. It is the first model in a series of computers produced until Apple IIe production ceased in November 1993. </text>
+		</text>
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>	
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Apple II</text>			
+		</text>	
+		<text name="system_year" extra="true">
+			<text>1977 - 1993</text>
+		</text>		
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.11 0.025</pos>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>Apple II 1977 - 1993</text>	
+			<pos>0.57 0.05</pos>			
+		</text>				
+	</view>		
+	
+</theme>
