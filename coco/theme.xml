@@ -1,0 +1,52 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Radio Shack TRS-80 Color Computer (also marketed as the Tandy Color Computer and affectionately nicknamed CoCo) is a line of home computers based on the Motorola 6809 processor. The Color Computer was launched in 1980, and lasted through three generations of hardware until being discontinued in 1991.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>CoCo</text>
+			<pos>0.08 0.08</pos>		
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1980 - 1991</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.11 0.05</pos>
+		</image>	
+		<text name="system_name_year" extra="true">
+			<text>CoCo 1980 - 1991</text>
+		</text>				
+	</view>		
+
+</theme>
