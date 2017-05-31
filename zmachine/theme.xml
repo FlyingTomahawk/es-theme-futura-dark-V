@@ -1,0 +1,54 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<fontSize>0.020</fontSize>		
+			<text>The Z-machine is a virtual machine that was developed in 1979 and used by Infocom for its text adventure games. The "Z" of Z-machine stands for Zork, Infocom's first adventure game. Infocom compiled game code to files containing Z-machine instructions, allowing it to port all its text adventures to new platforms with ease, which helped quickly grow its popularity.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>ZMachine</text>
+			<pos>0.06 0.08</pos>
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1979 - Now</text>		
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.11 0.05</pos>
+		</image>	
+		<text name="system_name_year" extra="true">
+			<text>ZMachine 1979 - Now</text>
+			<pos>0.57 0.05</pos>
+		</text>				
+	</view>		
+
+</theme>
