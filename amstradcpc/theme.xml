@@ -1,0 +1,52 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>	
+    </view>
+	
+<!-- SYSTEM VIEW START //-->
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Amstrad CPC (short for Colour Personal Computer) is a series of 8-bit home computers produced by Amstrad between 1984 and 1990. It was designed to compete in the mid-1980s home computer market dominated by the Commodore 64 and the Sinclair ZX Spectrum, where it successfully established itself primarily across Europe.</text>
+		</text>
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>	
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Amstrad</text>			
+		</text>	
+		<text name="system_year" extra="true">
+			<text>1984 - 1990</text>
+		</text>		
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.11 0.06</pos>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>Amstrad 1984 - 1990</text>	
+			<pos>0.565 0.05</pos>			
+		</text>				
+	</view>		
+	
+</theme>
