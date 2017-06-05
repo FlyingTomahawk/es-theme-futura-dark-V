@@ -13,8 +13,6 @@ License
 -------
 
 The frames and background were made by me and can be replicated, modified or used under the CC-BY-NC-SA license.
-I used 2 fonts for this theme and one of it (Audiowide) needs the OFL.txt file to be included if used. 
-You can of course use any other font if you wish, just make sure you got the license for it if needed.
 
 
 Video View Sample Images
