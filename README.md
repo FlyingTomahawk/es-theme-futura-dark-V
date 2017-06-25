@@ -1,4 +1,4 @@
-# Futura 10px dark video
+# Futura dark V
 Theme for Emulationstation and RetroPie
 
 
@@ -6,7 +6,7 @@ About
 -----
 
 The theme layout is based on the Newgen theme by Ruckage.
-This is a darker version of the original Futura 10px theme. Dark background with dimmed down frames.
+This is a darker version of the original Futura V theme. Dark background with dimmed down frames.
 
 
 License
@@ -15,46 +15,115 @@ License
 The frames and background were made by me and can be replicated, modified or used under the CC-BY-NC-SA license.
 
 
-Video View Sample Images
-------------------------
+Sample Images
+-------------
 
-**normal size**
+**System view**
 
-![Image](http://i.imgur.com/cINSzqpl.png)
+![Image](http://i.imgur.com/NPSrQIR.png)
 
-**large size**
+**Basic view**
 
-![Image](http://i.imgur.com/j9oXdFc.png)
+![Image](http://i.imgur.com/sLU5ILN.png)
+
+**Detailed view**
+
+![Image](http://i.imgur.com/JjbPlrX.png)
+
+**Video view**
+
+![Image](http://i.imgur.com/DPvhnKs.png)
 
 
-Normal View Sample Images
--------------------------
+Currently supported systems
+---------------------------
 
-**System View**
-
-![Image](http://i.imgur.com/GybmlVh.png)
-
-**Detailed View**
-
-![Image](http://i.imgur.com/ulFzUZJ.png)
-
-**Basic View**
-
-![Image](http://i.imgur.com/DBwMyeA.png)
+- 3do
+- Amiga
+- AmstradCPC
+- Apple II
+- Arcade (generic)
+- Atari 800
+- Atari 2600
+- Atari 5200
+- Atari 7800
+- Atari Jaguar
+- Atari Lynx
+- Commodore 64
+- CoCo
+- Colecovision
+- Capcom Play System (generic)
+- Capcom Play System I
+- Capcom Play System II
+- Capcom Play System III
+- Daphne
+- Dreamcast
+- Famicom
+- Final Burn Alpha
+- Famicom Disk System
+- Game & Watch
+- Game Gear
+- Game Boy
+- Game Boy Advance
+- Game Boy Color
+- Genesis
+- Intellivision
+- Kodi
+- Mame
+- MasterSystem
+- Mega Drive
+- Mega Drive Japan
+- MSX
+- Nintendo 64
+- Nintendo DS
+- Neo Geo
+- Nintendo (NES)
+- Neo Geo Pocket
+- Neo Geo Pocket Color
+- PC
+- PC Engine CD
+- PC Engine
+- Ports
+- Psikyo
+- PSP
+- PSP Minis
+- PlayStation (PSX)
+- Saturn
+- ScummVM
+- Sega32X
+- Sega CD
+- Super Famicom
+- SG-1000
+- Super Grafx
+- Super Nintendo (SNES)
+- TurboGrafx 16
+- TurboGrafx CD
+- Vectrex
+- Virtual Boy
+- Wonderswan
+- Wonderswan Color
+- Zmachine
+- ZX Spectrum
 
 
 Notes
 -----
 
 - This theme was build on a 1080p (1920x1080) resolution and is best used on a 16:9 Full HD TV. 
-- This theme might not look good on smaller screens or 4:3 aspect ratio monitors/TVs.
-- I just used random screenshots for the system view. You can replace them if you like by using the PSD files inside the "Screenshot cutting layouts" folder.
-- I created themes for 40+ systems and hopefully I will be able to add some few more if time allows.
+- This theme might not look good on smaller/larger screens or 4:3 aspect ratio monitors/TVs.
+- I just used random screenshots for the system view. You can replace those if you like by using the PSD files inside the "Screenshot cutting layouts" folder.
 - Special thanks to Matt Kennedy for his help and guidance.
 
 
 Change log
 ----------
+
+v1.4 - 2017-06-25
+- slight change in layout
+- code cleaning
+- Added Tubrografx-16 system
+- Added Tubrografx-CD system
+- Added PSP Minis stystem
 
 v1.3.7 - 2017-05-31
 - Added Amstrad CPC system (All credits to chrisdodgen)
@@ -113,5 +182,5 @@ v1.1 - 2017-01-30
 
 ---
 
-Theme 'futura 10px dark video' v1.3.7 - 2017-05-31 (CC-BY-NC-SA) 
+Theme 'Futura dark V' v1.3.7 - 2017-06-25 (CC-BY-NC-SA) 
 (c) FlyingTomahawk - flyingtomahawk2@gmail.com
