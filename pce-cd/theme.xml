@@ -12,7 +12,7 @@
 <!-- SYSTEM VIEW START //-->	
 	<view name="system">
 		<text name="system_description" extra="true">
-			<text>The TurboGrafx-16 was the first video game console to have a CD-ROM peripheral, and first device ever to use CD-ROM as a storage medium for video games. NEC released the CD-ROM in Japan on December 4, 1988, and released the TurboGrafx-CD in the United States on August 1, 1990.</text>
+			<text>The PC Engine CD-ROM² The CD-ROM² System is an add-on console that is attached to a standard PC Engine, which can play CD-based format games as well as audio CDs. This made the PC Engine the first device ever to use CD-ROM as a storage medium for video games.</text>
 		</text>	
 <!-- screenshot left //-->		
 		<image name="screenshot_left" extra="true">
@@ -31,7 +31,7 @@
 <!-- BASIC VIEW START //-->	
 	<view name="basic">
 		<text name="system_name" extra="true">
-			<text>TurboGrafx CD</text>
+			<text>PC Engine CD-ROM²</text>
 			<pos>0.022 0.08</pos>	
 			<fontSize>0.045</fontSize>
 			<size>0.25 0</size>			
@@ -46,13 +46,12 @@
 <!-- DETAILED VIEW START //-->	
 	<view name="detailed, video">
 		<image name="logo">
-			<pos>0.13 0.045</pos>
-			<maxSize>0.25 0.145</maxSize>
+			<pos>0.12 0.065</pos>
 		</image>		
 		<text name="system_name_year" extra="true">
-			<text>TG-CD 1988 - 1999</text>
-			<pos>0.59 0.045</pos>			
-		</text>				
+			<text>PCE-CD 1988 - 1999</text>
+			<pos>0.59 0.05</pos>			
+		</text>
 	</view>		
 
 </theme>
