@@ -182,5 +182,5 @@ v1.1 - 2017-01-30
 
 ---
 
-Theme 'Futura dark V' v1.3.7 - 2017-06-25 (CC-BY-NC-SA) 
+Theme 'Futura dark V' v1.4 - 2017-06-25 (CC-BY-NC-SA) 
 (c) FlyingTomahawk - flyingtomahawk2@gmail.com
