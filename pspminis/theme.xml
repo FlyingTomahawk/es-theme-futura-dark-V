@@ -1,0 +1,61 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+	<view name="system">
+        <image name="logo">
+            <path>./system_bk.svg</path>
+        </image>
+    </view>
+    <view name="basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>PSP Minis was launched on October 1, 2009 for the PSP and the PSPGo. Under 100MB these games are smaller, cheaper, and download only. In December of 2009, an update was released on the PlayStation 3 (3.15) which enables most Minis to be played on the home console.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<image name="logo">
+			<maxSize>0.22 0.14</maxSize>
+		</image>		
+		<text name="system_name" extra="true">
+			<text>PSP Minis</text>		
+		</text>		
+		<text name="system_year" extra="true">
+			<text>2009</text>
+			<pos>0.81 0.08</pos>			
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.135 0.04</pos>
+			<maxSize>0.22 0.19</maxSize>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>PSP Minis 2009</text>			
+		</text>					
+	</view>		
+
+</theme>
