@@ -1,0 +1,58 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The TurboGrafx-16 was the first video game console to have a CD-ROM peripheral, and first device ever to use CD-ROM as a storage medium for video games. NEC released the CD-ROM in Japan on December 4, 1988, and released the TurboGrafx-CD in the United States on August 1, 1990.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>TurboGrafx CD</text>
+			<pos>0.022 0.08</pos>	
+			<fontSize>0.045</fontSize>
+			<size>0.25 0</size>			
+			<alignment>center</alignment>	
+			<lineSpacing>1</lineSpacing>			
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1988 - 1999</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.13 0.045</pos>
+			<maxSize>0.25 0.145</maxSize>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>TG-CD 1988 - 1999</text>
+			<pos>0.59 0.05</pos>
+		</text>		
+	</view>		
+
+</theme>
