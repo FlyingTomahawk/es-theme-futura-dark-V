@@ -143,9 +143,11 @@ comments:         Please read the README.md and license.txt text files for furth
 			<forceUppercase>1</forceUppercase>
 		</text>				
 		<textlist name="gamelist">
-			<pos>0.15 0.24</pos>
-			<size>0.36 0.62</size>
+			<pos>0.15 0.23</pos>
+			<size>0.36 0.63</size>
 			<fontSize>0.03</fontSize>
+			<lineSpacing>1.5</lineSpacing>
+			<alignment>left</alignment>
 		</textlist>	
 		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players">
 			<forceUppercase>1</forceUppercase>
